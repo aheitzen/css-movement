@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ANIMATIONS HECK YEAH</title>
+<link rel="stylesheet" href="css/thimble.css">
+<link rel="stylesheet" href="css/delighter.css">
+<link rel="stylesheet" href="css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/sticky_kit.js"></script>
+<script type="text/javascript" src="js/delighters.js"></script>
+</head>
+<body>
+	<div class="container1">
+		<div class="row">
+			<div class="cell">
+				<div class="container" id="nav">
+        			<div id="myNav" class="overlay">
+            			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	              		<div class="overlay-content">
+			                <a class="nav-links" href="#title">Item 1</a>
+			                <a class="nav-links" href="#history">Item 2</a>
+			                <a class="nav-links" href="#">Item 3</a>
+			            </div>
+        			</div>
+        			<span id="nav-hamburger" style="font-size:50px; cursor:pointer" onclick="openNav()">&#9776;</span>
+    			</div>
+    		</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="cell four white-background">
+				<h1 class="h1"></h1>
+				<pre class="animations-header">CSS ANIMATIONS</pre>
+			</div>
+			<div class="cell eight white-background">
+				<div class="circle"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container2">
+		<div class="row">
+			<div class="cell four">
+				<pre class="hover-header">HOVER TIME</pre>
+			</div>
+			<div class="cell eight">
+				<div class="block">
+					<a class="link" href="#">hover me</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container3">
+		<div class="row">
+			<div class="cell">
+				<h1 class="sticky">I'm a sticky header!<br><span>HELL YEAH!</span></h1>
+			</div>
+			<div class="cell">
+				<pre id="tall-column">Lorem ipsum dolor amet ennui unicorn sartorial hella gochujang, neutra taiyaki raw denim cred PBRB selfies next level health goth yr lo-fi. Portland man braid hoodie vape. Air plant occupy jean shorts trust fund yuccie normcore cray pabst banjo small batch. Blog disrupt banh mi distillery, kale chips chartreuse ugh live-edge. Single-origin coffee kinfolk kale chips prism. <br><br> Activated charcoal snackwave hexagon hashtag pabst PBRB glossier synth pinterest trust fund mixtape thundercats celiac occupy. Live-edge vexillologist etsy vinyl affogato XOXO leggings celiac viral wayfarers semiotics quinoa hoodie keytar. Wolf snackwave bushwick unicorn. Glossier chambray palo santo banh mi listicle. Health goth organic cold-pressed chillwave jean shorts. Authentic artisan before they sold out franzen typewriter coloring book woke snackwave narwhal hot chicken taxidermy twee VHS poke. Roof party viral fixie, pitchfork DIY readymade biodiesel.<br><br>Synth paleo vinyl taiyaki freegan green juice deep v af you probably haven't heard of them venmo single-origin coffee schlitz. Affogato williamsburg fam gastropub tofu, fashion axe church-key everyday carry DIY. Meditation etsy taxidermy marfa vape intelligentsia chicharrones hashtag aesthetic everyday carry typewriter vinyl lyft. Taxidermy aesthetic jean shorts tattooed forage. Meditation tumblr twee deep v, taiyaki tote bag etsy neutra flexitarian kale.</pre>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript">
+	  
+$(".sticky").stick_in_parent({});
+
+function openNav() {
+	document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+</body>
+</html>
