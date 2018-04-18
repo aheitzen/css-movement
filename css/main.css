@@ -89,19 +89,20 @@ a.link {
 	width: 200px;
 	font-size: 40px;
 	text-align: center;
-    color: blue;
-    margin-top: 70px;
-    margin-bottom: 0;
-    margin-left: 10%;
+  color: blue;
+  margin-top: 70px;
+  margin-bottom: 0;
+  margin-left: 10%;
 }
 
 a.link:hover { 
 	transform: scale(1.2) rotate(90deg) skewY(5deg);
+  color: red;
 }
 
 .circle {
 	-webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
+	animation: slide-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
 	opacity: 1;
 }
 
